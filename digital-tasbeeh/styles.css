@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #000000;
+    display:flex;
+    justify-content: center;
+    height:100vhd;
+    margin:0;
+}
+
+ 
+.tasbeeh-container{
+    background:#a0899a;
+    padding:30px;
+    border-radius:15px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    width:300px;
+} 
+
+.tasbeeh-container h1 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#tasbeeh{
+    font-size: 1.2rem;
+    
+}
+button{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3;
+}
+#tasbeeh-btn:hover{
+    background:rgb(108, 80, 111)
+}
+#reset-btn:hover{
+    background: #5f6872;
+}
+
+
+
